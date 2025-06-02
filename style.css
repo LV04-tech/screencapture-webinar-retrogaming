@@ -1,0 +1,32 @@
+*{
+      font-family: "Montserrat", sans-serif;
+}
+h1, h2, h3, .h1, .h2, .h3{
+      font-family: "Genos", sans-serif;
+}
+/* variabili */ 
+:root{
+    --bn:rgb(36, 39, 78);
+    --dv:rgb(13, 0, 25);
+    --wh:rgb(247, 247, 247);    
+}
+
+.bg-bn{
+      background-color: var(--bn);
+}
+.bg-dv{
+      background-color: var(--dv);
+
+}
+.bg-wh{
+      background-color: var(--wh);
+}
+.text-bn{
+      color: var(--bn);
+}
+.text-dv{
+      color: var(--dv);
+}
+.text-wh{
+      color: var(--wh);
+}
