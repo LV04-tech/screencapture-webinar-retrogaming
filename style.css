@@ -1,14 +1,19 @@
 *{
-      font-family: "Montserrat", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif;
+     
 }
 h1, h2, h3, .h1, .h2, .h3{
-      font-family: "Genos", sans-serif;
+        font-family: "Roboto", sans-serif;
 }
 /* variabili */ 
 :root{
     --bn:rgb(36, 39, 78);
     --dv:rgb(13, 0, 25);
-    --wh:rgb(247, 247, 247);    
+    --wh:rgb(255, 255, 255); 
+    --yl:rgb(255, 233, 21);
+    --vio:rgb(28, 21, 63);
+       
+    
 }
 
 .bg-bn{
@@ -21,6 +26,9 @@ h1, h2, h3, .h1, .h2, .h3{
 .bg-wh{
       background-color: var(--wh);
 }
+.bg-yl{
+      background-color: var(--yl);
+}
 .text-bn{
       color: var(--bn);
 }
@@ -29,4 +37,76 @@ h1, h2, h3, .h1, .h2, .h3{
 }
 .text-wh{
       color: var(--wh);
+}
+.text-yl{
+      color: var(--yl);
+}
+
+/* header */
+
+.header-custom{
+      background-image: url(./media/bg-1.jpg);
+}
+
+ /* button */
+ .btn-custom{
+      border: 1px solid var(--yl);
+ }
+  .btn-custom:hover{
+      background-color: var(--yl);
+      color: black;
+      transition: 0.5s;
+  }
+
+/* section */
+
+.section-custom{
+     background: var(--bn);
+}
+
+.macchine{
+      height: 95%;
+      width: 70%;
+}
+
+
+.calendar-custom{
+      font-size: 50px;
+      margin-right: 20px;
+      background-color: var(--yl);
+      border-radius: 50%;
+      padding: 20px 30px;
+}
+/* section1 */
+
+.forum-cust{
+      background-image: url(./media/bg-2.jpg);
+}
+.forum-1{
+      height: 90%;
+      width: 100%;
+}
+
+.border-vio{
+      border: 2px solid var(--vio);
+      border-radius: 5%;
+      background-color: var(--vio);
+}
+
+ .btn-custom1{
+      background-color: var(--yl);
+      color: black;
+      border: 1px solid var(--yl);
+      width: 100%;
+ }
+  .btn-custom1:hover{
+      background-color: var(--yl);
+      color: var(--wh);
+      transition: 0.5s;
+  }
+      
+.retro{
+   background-color: var(--vio);
+   border: none;
+   border-bottom: 1px solid rgb(179, 0, 194);
 }
